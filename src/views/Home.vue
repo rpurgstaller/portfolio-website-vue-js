@@ -18,9 +18,6 @@
     </div>
     <div class="static-container-img">
       <img id="lander-img" src="./../assets/images/lander.jpeg">
-      <div class="portfolio-title">
-        <!--<a>Portfolio</a>-->
-      </div>
     </div>
   </div>
 </template>
