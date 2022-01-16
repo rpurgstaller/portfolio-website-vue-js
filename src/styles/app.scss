@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 0;
+  min-width: 0;
+  font-family: inherit;
+}
+/* @vars */
+:root {
+  --font: #70757a;
+  --hover: #5d1785;
+  --media-icon:#dbdbdb;
+  --media-icon-hover:var(--hover);
+  --button-color:#dbdbdb;
+  --button-hover:var(--hover);
+  --header-link: #dbdbbd;
+  --header-link-hover:var(--hover);
+  --header-link-active: #70757a;
+}
+/* @layout */
+html {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 100%;
+  text-align: block;
+  color: #70757a;//#2c3e50;
+}
+#app {
+  overflow: hidden;
+  margin: 0 auto;
+}
+.main {
+  //background-image: var(--background);
+  background-color: #000000;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+button {
+  background: none;
+  border: none;
+  color:var(--button-color);
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  
+}
+
+

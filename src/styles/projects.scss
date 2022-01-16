@@ -1,0 +1,38 @@
+.project-container {
+    margin: 3em 10vw 0em 10vw;
+
+}
+
+.tag-list {
+    display: flex;
+    margin: 0 0 1em 0;
+    
+    div {
+        font-size: 12px;
+        border:2px groove var(--font);
+        border-radius: 8px;
+        padding: 4px 8px 1px 8px;
+        margin: 0 5px 0 0;
+        width:fit-content;
+    }   
+}
+
+.projects-media-icon-container {
+    width: 100%;
+    margin-top: 2rem;
+  
+    svg {
+      margin: 7px;
+      //display: block;
+      width: 1.2rem;
+      height: 1.2rem;
+      fill: var(--media-icon);
+      position: relative;
+      top: 2px;
+      transition: fill 400ms ease-out;
+    }
+  
+    svg:hover {
+      fill: var(--media-icon-hover);
+    }
+  }
