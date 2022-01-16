@@ -1,8 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
+
+/* vue-awesome */
+import 'vue-awesome/icons'
+import Icon from 'vue-awesome/components/Icon'
 
 Vue.config.productionTip = false
 
+Vue.component('v-icon', Icon)
+
+
 new Vue({
-  render: function (h) { return h(App) }
+  router,
+  render: h => h(App)
 }).$mount('#app')
