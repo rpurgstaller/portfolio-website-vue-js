@@ -30,8 +30,9 @@ const router = new VueRouter({
   routes: routes
 })
 
-router.beforeEach((from, to, next) => {
+router.beforeEach((to, from, next) => {
   document.body.classList.remove('-open-nav')
+  document.title = to.name + ' :: Roman Purgstaller'
   next()
 })
 

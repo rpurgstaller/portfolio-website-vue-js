@@ -10,7 +10,6 @@ Vue.config.productionTip = false
 
 Vue.component('v-icon', Icon)
 
-
 new Vue({
   router,
   render: h => h(App)
