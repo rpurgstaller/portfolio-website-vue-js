@@ -13,10 +13,10 @@
             v-for='navItem in navItems'
             :key="navItem.id"
           >
-            <router-link :to="'/' + navItem.to">{{ navItem.text }}</router-link>
+            <router-link class="roboto-font" :to="'/' + navItem.to">{{ navItem.text }}</router-link>
           </li>
-          <li><a href="mailto:roman.purgstaller@protonmail.com">contact</a></li>
-          <li><a href="./roman-purgstaller-resume.pdf" target="_blank">cv</a></li>
+          <li><a class="roboto-font" href="mailto:roman.purgstaller@protonmail.com">contact</a></li>
+          <li><a class="roboto-font" href="./roman-purgstaller-resume.pdf" target="_blank">cv</a></li>
         </ul>
       </nav>
     </header>

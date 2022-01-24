@@ -5,7 +5,7 @@
       v-for="(project, idx) in projects"
       :key="idx"
     >
-      <div class="tag-list">
+      <div class="tag-list roboto-font">
         <div v-for="(tag, tag_idx) in project.tags" :key="tag_idx">
           {{tag.title}}
         </div>
@@ -23,7 +23,7 @@
           <v-icon :name="mediaIcon.iconName" :href="mediaIcon.ref"/>
         </a>
       </div>
-      <hr>
+      <hr v-if="idx !== projects.length-1">
     </div>
   </div>
 </template>
@@ -39,7 +39,6 @@ export default ({
         {
           title: 'Personal Portfolio ',
           text: 'This site was built using Vue CLI.',
-          link: 'sarcasm-detector',
           mediaIcons: [
             { id: 1, title: 'github', href: 'https://github.com/rpurgstaller', iconName: 'brands/github' }
           ],
@@ -48,25 +47,33 @@ export default ({
           ]
         },
         {
-          title: 'Sarcasm Detection',
-          text: 'A sarcasm detector, oh, what a useful invention! I made this in university and while the results were disillusioning, it was a lot of fun implementing.',
-          link: 'sarcasm-detector',
-          mediaIcons: [
-            { id: 1, title: 'github', href: 'https://github.com/rpurgstaller', iconName: 'brands/github' }
-          ],
-          tags: [
-            { title: 'python' }, { title: 'scikit-learn' }
-          ]
-        },
-        {
           title: 'Beanbot CLI',
           text: 'Save and modify your transactions and create a double-entry bookkeeping using beancount.',
-          link: 'sarcasm-detector',
           mediaIcons: [
             { id: 1, title: 'github', href: 'https://github.com/rpurgstaller', iconName: 'brands/github' }
           ],
           tags: [
             { title: 'python' }, { title: 'sqlite3' }, { title: 'sqlAlchemy' }
+          ]
+        },
+        {
+          title: 'Flask-RESTPlus web service',
+          text: '',
+          mediaIcons: [
+            { id: 1, title: 'github', href: 'https://github.com/rpurgstaller', iconName: 'brands/github' }
+          ],
+          tags: [
+            { title: 'python' }, { title: 'flask' }, { title: 'neo4j' }, { title: 'py2neo' }
+          ]
+        },
+        {
+          title: 'Sarcasm Detection',
+          text: 'A sarcasm detector, oh, what a useful invention! For this project I used a tweepy to mine german tweets with the hashtags #sarcasm and #irony. I made this in university and while the results were quite disillusioning, it was a lot of fun implementing.',
+          mediaIcons: [
+            { id: 1, title: 'github', href: 'https://github.com/rpurgstaller', iconName: 'brands/github' }
+          ],
+          tags: [
+            { title: 'python' }, { title: 'scikit-learn' }
           ]
         }
       ]

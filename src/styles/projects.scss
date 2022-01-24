@@ -1,6 +1,9 @@
 .project-container {
     margin: 3em 10vw 0em 10vw;
+}
 
+hr {
+    margin: 1vw 0 0vw 0;
 }
 
 .tag-list {
@@ -24,8 +27,8 @@
     svg {
       margin: 7px;
       //display: block;
-      width: 1.2rem;
-      height: 1.2rem;
+      width: 1.4rem;
+      height: 1.4rem;
       fill: var(--media-icon);
       position: relative;
       top: 2px;

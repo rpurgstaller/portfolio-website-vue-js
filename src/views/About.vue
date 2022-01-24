@@ -1,6 +1,9 @@
 <template>
   <div id="about" class="wrapper">
-    <div class="static-container-content">
+    <div class="container-img">
+      <img id="about-img" src="./../assets/images/about.jpeg">
+    </div>
+    <div class="container-content">
       <p>Hi, my name is Roman. These days I live in Graz and work at <a href=https://www.b4b-solutions.com/>b4b-solutions</a> as a Cloud Architect advancing SAP Software.</p>
       <br>
       <p>After finishing my studies in Software Engineering / Management at Graz University of Technology, I had the opportunity to work in different fields as a software engineer and product owner.</p>
@@ -12,3 +15,14 @@
     </div>
   </div>
 </template>
+
+<script>
+import '@/styles/about.scss'
+
+export default ({
+  name: 'about',
+  data: () => {
+    return {}
+  }
+})
+</script>

@@ -1,7 +1,7 @@
 <template>
   <div id="home" class="wrapper">
     <div class="static-container-content">
-      <h1>Roman Purgstaller</h1>
+      <h1 class="roboto-font">Roman Purgstaller</h1>
       <h3>Software Engineer / Architect / Product Designer</h3>
       <h3>currently based in Graz, Austria</h3>
       <div class="media-icon-container">
