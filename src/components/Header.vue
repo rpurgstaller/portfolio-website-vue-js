@@ -15,8 +15,8 @@
           >
             <router-link class="roboto-font" :to="'/' + navItem.to">{{ navItem.text }}</router-link>
           </li>
-          <li><a class="roboto-font" href="mailto:roman.purgstaller@protonmail.com">contact</a></li>
-          <li><a class="roboto-font" href="./roman-purgstaller-resume.pdf" target="_blank">cv</a></li>
+          <!--<li><a class="roboto-font" href="mailto:roman.purgstaller@protonmail.com">contact</a></li>
+          <li><a class="roboto-font" href="./roman-purgstaller-resume.pdf" target="_blank">cv</a></li>-->
         </ul>
       </nav>
     </header>
@@ -34,7 +34,7 @@ export default {
   data: () => {
     return {
       navItems: [
-        { id: 1, to: '', text: 'is' },
+        { id: 1, to: '', text: 'home' },
         { id: 2, to: 'about', text: 'about' },
         { id: 3, to: 'projects', text: 'projects' }
       ]

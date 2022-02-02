@@ -1,5 +1,11 @@
 # portfolio
 
+Thanks for your interest in my website!
+
+You can find the live version of the website [here](https://rpurgstaller.github.io/portfolio).
+
+It was built using Vue CLI. Feel free to copy and reuse anything in this repository.
+
 ## Project setup
 ```
 npm install

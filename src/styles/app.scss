@@ -26,13 +26,16 @@ html {
   color: #70757a;//#2c3e50;
   background-color: black;
 }
+
 .roboto-font {
     font-family: 'Roboto Mono', monospace;
 }
 
 a, p{
+    margin: 0 0 10px 0; 
+
     a:link{
-        color: #eeeeee;
+        color: #d8d8d8;
     }
     a:visited {
         color: #8f00e2;
@@ -41,6 +44,7 @@ a, p{
         color: var(--hover)
     }
 }
+
 #app {
   overflow: hidden;
   margin: 0 auto;

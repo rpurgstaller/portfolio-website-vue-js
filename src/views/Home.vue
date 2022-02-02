@@ -16,8 +16,8 @@
         </a>
       </div>
     </div>
-    <div class="static-container-img">
-      <img id="lander-img" src="./../assets/images/lander.jpeg">
+      <div class="static-container-img">
+        <img id="lander-img" src="./../assets/images/lander.jpeg">
     </div>
   </div>
 </template>
