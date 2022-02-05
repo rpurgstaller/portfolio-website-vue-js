@@ -26,14 +26,14 @@
 import '@/styles/home.scss'
 
 export default ({
-  name: 'projects',
+  name: 'home',
   data: () => {
     return {
       mediaIcons: [
         { id: 1, title: 'github', href: 'https://github.com/rpurgstaller', iconName: 'brands/github' },
         { id: 2, title: 'hackerrank', href: 'https://www.hackerrank.com/romanpurgstaller', iconName: 'brands/hackerrank' },
         { id: 3, title: 'stack-overflow', href: 'https://stackoverflow.com/users/1618893/roman-purgstaller?tab=profile', iconName: 'brands/stack-overflow' },
-        { id: 4, title: 'linkedin', href: '', iconName: 'brands/linkedin' },
+        { id: 4, title: 'linkedin', href: 'https://www.linkedin.com/in/roman-purgstaller-828b33229', iconName: 'brands/linkedin' },
         { id: 5, title: 'resume', href: 'roman-purgstaller-resume.pdf', iconName: 'cv' }
       ]
     }
