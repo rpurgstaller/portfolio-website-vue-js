@@ -15,7 +15,7 @@
           </div>
         </div>
         <h3>{{project.title}}</h3>
-        <a>{{project.text}}</a>
+        <p><span v-html="project.text"></span></p>
       </div>
       <div class="projects-media-icon-container">
         <a
@@ -40,12 +40,11 @@ export default ({
   name: 'projects',
   data: () => {
     return {
-      imgPath: './../assets/images/',
       projects: [
         {
           title: 'Beanbot CLI',
-          text: 'Save and modify your transactions and create a double-entry bookkeeping using beancount.',
-          img: { src: 'sarcasm-f1-accuracy.jpeg' },
+          text: 'Save and modify your transactions and create a double-entry bookkeeping using beancount. It is possible to import and save your transactions from csv to a sqlite database. You can also create rules to transform attributes from your transactions and export your database to a double-entry accounting text file based on <a href="https://beancount.github.io/">beancount</a>. I\'m currently working on a text similarity measure to find similar transactions.',
+          img: { src: 'beanbot.jpeg' },
           mediaIcons: [
             { id: 1, title: 'github', href: 'https://github.com/rpurgstaller/beanbot-personal-finance-manager', iconName: 'brands/github' }
           ],
@@ -66,7 +65,7 @@ export default ({
         },
         {
           title: 'Flask-RESTPlus Web Service',
-          text: 'Web application using Flask-RESTPlus and neo4j as a database. py2neo is used as OGM. Currently, CRUD operations for users are supported.',
+          text: 'Web application using Flask-RESTPlus and neo4j as a database. Py2neo as an OGM. I did this project mainly because wanted to dive into graph databases. I really enjoyed working with cypher and looking forward for the next project with this technology.',
           img: { src: 'neo4j-flask-backend.jpeg' },
           mediaIcons: [
             { id: 1, title: 'github', href: 'https://github.com/rpurgstaller/Flask-RESTPlus-neo4j-backend', iconName: 'brands/github' }
@@ -83,12 +82,12 @@ export default ({
             { id: 1, title: 'github', href: 'https://github.com/rpurgstaller/angular-login-and-signup', iconName: 'brands/github' }
           ],
           tags: [
-            { title: 'angular' }, { title: 'material' }
+            { title: 'angular' }, { title: 'material' }, { title: 'typescript' }
           ]
         },
         {
           title: 'Sarcasm Detection',
-          text: 'A sarcasm detector, oh, what a useful invention! For this project I used the tweepy library to access the twitter api and mine german tweets with the hashtags #sarcasm and #irony. I made this project a while after the european migrant crisis in 2015, hence I found a lot of tweets complaining about politians and journalists. The results were quite disillusioning, but it was a lot of fun implementing. You can read more about it in the paper on the github repo.',
+          text: 'A sarcasm detector, oh, what a useful invention! For this project I used the tweepy library to access the twitter api and mine german tweets with the hashtags #sarcasm and #irony. I made this project a while after the european migrant crisis in 2015, hence I found a lot of tweets complaining about politians and journalists. Unfortunately I can hardly blame the dreadful results of this study on the European Union. Nevertheless I had a lot of fun with this project. You can read more about it in the paper on the github repo.',
           img: { src: 'sarcasm-f1-accuracy.jpeg' },
           mediaIcons: [
             { id: 1, title: 'github', href: 'https://github.com/rpurgstaller/sarcasm-detector', iconName: 'brands/github' }
