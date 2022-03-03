@@ -54,7 +54,7 @@ export default ({
         },
         {
           title: 'Personal Portfolio ',
-          text: 'This site was built using Vue CLI.',
+          text: 'This site was built using Vue CLI. I did my best to make the site responsive. Feel free to copy and reuse parts of this project.',
           img: { src: 'lander.jpeg' },
           mediaIcons: [
             { id: 1, title: 'github', href: 'https://github.com/rpurgstaller/portfolio-website', iconName: 'brands/github' }
@@ -65,24 +65,24 @@ export default ({
         },
         {
           title: 'Flask-RESTPlus Web Service',
-          text: 'Web application using Flask-RESTPlus and neo4j as a database. Py2neo as an OGM. I did this project mainly because wanted to dive into graph databases. I really enjoyed working with cypher and looking forward for the next project with this technology.',
+          text: 'Web application using Flask-RESTPlus and neo4j as a database. I did this project especially because I wanted to dive into graph databases. I really enjoyed working with cypher and looking forward for the next project with this technology.',
           img: { src: 'neo4j-flask-backend.jpeg' },
           mediaIcons: [
             { id: 1, title: 'github', href: 'https://github.com/rpurgstaller/Flask-RESTPlus-neo4j-backend', iconName: 'brands/github' }
           ],
           tags: [
-            { title: 'python' }, { title: 'neo4j' }, { title: 'flask' }, { title: 'py2neo' }
+            { title: 'python' }, { title: 'neo4j' }, { title: 'flask' }, { title: 'py2neo' }, { title: 'rest' }
           ]
         },
         {
           title: 'Angular Login and Sign-Up',
-          text: 'Angular web app for user registration using Material design.',
+          text: 'Angular web app for user registration using Material design. The app supports user registration, form validation and a admin user panel.',
           img: { src: 'angular-frontend.jpeg' },
           mediaIcons: [
             { id: 1, title: 'github', href: 'https://github.com/rpurgstaller/angular-login-and-signup', iconName: 'brands/github' }
           ],
           tags: [
-            { title: 'angular' }, { title: 'material' }, { title: 'typescript' }
+            { title: 'angular' }, { title: 'material' }, { title: 'typescript' }, { title: 'rest' }
           ]
         },
         {
