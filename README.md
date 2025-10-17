@@ -2,7 +2,7 @@
 
 Thanks for your interest in my website!
 
-You can find the live version of the website [here](https://rpurgstaller.github.io/portfolio).
+The website is not online anymore. 
 
 It was built using Vue CLI. Feel free to copy and reuse anything in this repository.
 
