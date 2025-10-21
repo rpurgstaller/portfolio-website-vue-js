@@ -2,7 +2,7 @@
 
 Thanks for your interest in my website!
 
-The website is not online anymore. 
+The website is not online anymore. You can find the new website [here](https://www.rpurgstaller.app/).
 
 It was built using Vue CLI. Feel free to copy and reuse anything in this repository.
 
