@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 Thanks for your interest in my website!
 
